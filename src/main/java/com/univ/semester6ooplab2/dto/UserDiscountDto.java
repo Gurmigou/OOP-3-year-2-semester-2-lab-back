@@ -10,6 +10,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class UserDiscountDto {
+    private Integer id;
     private Integer userId;
     private Integer tourCompanyId;
     private Integer discount;

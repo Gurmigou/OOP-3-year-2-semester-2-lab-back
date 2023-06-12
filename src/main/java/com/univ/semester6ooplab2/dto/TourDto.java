@@ -12,6 +12,7 @@ import java.util.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 public class TourDto {
+    private Integer id;
     private String name;
     private String description;
     private Double price;
